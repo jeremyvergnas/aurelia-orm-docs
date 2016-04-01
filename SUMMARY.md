@@ -2,10 +2,10 @@
 
 * [Introduction](README.md)
 * [Quick start](chapter1.md)
-* [Decorators](decorators.md)
 * Terminology
 * Entities
 * Repositories
+* [Decorators](decorators.md)
 * [Components](components.md)
 * Entity manager
 
