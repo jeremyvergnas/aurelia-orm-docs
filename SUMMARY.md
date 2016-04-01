@@ -11,4 +11,5 @@
 * [Components](components.md)
 * Api: Entity
 * Api: Repository
+* Api: EntityManager
 
