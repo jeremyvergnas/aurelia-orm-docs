@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Quick start](chapter1.md)
-* Terminology
+* [Terminology](terminology.md)
 * Entities
 * Repositories
 * Entity manager
