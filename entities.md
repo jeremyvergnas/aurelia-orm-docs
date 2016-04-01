@@ -27,4 +27,23 @@ That's it! That's all that's needed to create an entity.
 
 ### Registering
 
-After creating your gem of an Entity, you'll want to register it with the EntityManager. That way, the Repository responsible for your resource will populate using your new entity!
+After creating your gem of an Entity, you'll want to register it with the EntityManager.
+Then the Repository responsible for your resource will populate using your new entity!
+
+Here's how:
+
+
+
+## Going deep
+
+```js
+import {Entity, type, association} from 'aurelia-orm';
+
+class Product extends Entity {
+  @type('string')
+  name = null;
+  
+  @association('category')
+  category = null;
+}
+```
