@@ -1,12 +1,7 @@
 {
     "plugins": [
-        "disqus",
         "edit-link",
         "anchors-wrapper"
     ],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "sxorm"
-        }
-    }
+    "pluginsConfig": {}
 }
