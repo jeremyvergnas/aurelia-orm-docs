@@ -1,5 +1,4 @@
-Docs for the {`Repository`} class
-========
+# Docs for the {`Repository`} class
 
 A `Repository` allows you to retrieve entities, populate them with data and more.
 It can also be extended, allowing you to supply your custom `Repository`.
