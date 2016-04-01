@@ -52,15 +52,21 @@ There's an easier way to do this, as described in the [Configuring section in ch
 Here's an example that showcases (almost) all possibilities for your entity:
 
 ```js
-import {Entity, type, association} from 'aurelia-orm';
+import {ensure} from 'aurelia-validation';
+import {Entity, type, association, validatedResource} from 'aurelia-orm';
 
+@validatedResource('product')
 class Product extends Entity {
   @type('string')
+  @ensure(it => it.isNotEmpty().containsOnlyAlpha().hasLengthBetween(3, 20))
   name = null;
   
   @association('category')
   category = null;
+  
+  @association({collection: 'media'})
+  media = [];
 }
 ```
 
-Further information on the decorators being used are in the [decorators chapter](decorators.html).
+Further information on the decorators used are in the [decorators chapter](decorators.html).
