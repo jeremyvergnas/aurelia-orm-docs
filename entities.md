@@ -45,9 +45,11 @@ class SomeClass {
 }
 ```
 
-There's an easier way to do this, as described in the Configuring section in chapter Installing.
+There's an easier way to do this, as described in the [Configuring section in chapter Installing](installing.html#configuring).
 
 ## Going deep
+
+Here's an example that showcases (almost) all possibilities for your entity:
 
 ```js
 import {Entity, type, association} from 'aurelia-orm';
@@ -60,3 +62,5 @@ class Product extends Entity {
   category = null;
 }
 ```
+
+Further information on the decorators used may be found in the [decorators chapter](decorators.html).
