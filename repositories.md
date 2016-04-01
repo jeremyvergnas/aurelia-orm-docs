@@ -35,4 +35,18 @@ class Product extends Entity {
 }
 ```
 
-And done! You can now start adding magical methods to your repository, and separate logic.
+And done! You can now start adding magical methods to your repository, and separate logic. Here's an example that's a bit more extended:
+
+```js
+import {Repository} from 'spoonx/aurelia-orm';
+
+export class Custom extends Repository {
+  findUserPosts(user) {
+    return this.find({user: user.id});
+  }
+  
+  findNewPosts() {
+    return this.find({read: false});
+  }
+}
+```
