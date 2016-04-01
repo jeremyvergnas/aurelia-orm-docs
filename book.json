@@ -4,5 +4,9 @@
         "edit-link",
         "anchors-wrapper"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "sxorm"
+        }
+    }
 }
