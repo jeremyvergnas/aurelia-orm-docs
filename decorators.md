@@ -1,6 +1,6 @@
 # Decorators
 
-Aurelia-orm ships with a couple of decorators that help you configure your entities.
+Aurelia-orm ships with a couple of decorators that help you configure your entities. These decorators offer functionality and convenience.
 
 ## Small example
 
@@ -8,7 +8,7 @@ Here's an example using (almost) all decorators available:
  
 
 ```javascript
-import {Entity, resource, repository, validation, association} from 'spoonx/aurelia-orm';
+import {Entity, resource, repository, validation, association, type} from 'spoonx/aurelia-orm';
 import {ensure} from 'aurelia-validation';
 import {CustomRepository} from 'repository/custom-repository';
 
@@ -17,6 +17,7 @@ import {CustomRepository} from 'repository/custom-repository';
 validation()
 export class MyEntity extends Entity {
   @ensure(it => it.isNotEmpty().hasLengthBetween(3, 20))
+  @type('string')
   name = null;
   
   // Will use string 'onetoone' as resource name.

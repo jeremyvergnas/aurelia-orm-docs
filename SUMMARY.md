@@ -3,5 +3,5 @@
 * [Introduction](README.md)
 * [Quick start](chapter1.md)
 * [Decorators](decorators.md)
-* Components
+* [Components](components.md)
 
