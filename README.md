@@ -11,7 +11,7 @@ Enter aurelia-orm. This module provides you with some useful and cool features, 
 * Validation
 * Type casting
 * Self-populating select element
-* More..
+* And more
 
 This makes it easier to focus on your application and organize your code.
 
