@@ -43,3 +43,9 @@ Some entities have a relationship with each other. For instance, entity `User` h
 > Manages Repository and Entity instances for resources.
 
 Each resource has an entity, and a repository. They are all registered with the entity manager.
+
+## Populate
+
+> To build up an instance with the provided data.
+
+Entities can be populated with data. This means they get data assigned to them.
