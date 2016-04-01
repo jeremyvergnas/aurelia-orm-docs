@@ -5,7 +5,7 @@
 * [Installing](installing.md)
 * [Terminology](terminology.md)
 * [Entities](entities.md)
-* Repositories
+* [Repositories](repositories.md)
 * Entity manager
 * [Decorators](decorators.md)
 * [Components](components.md)
