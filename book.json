@@ -1,11 +1,3 @@
 {
-    "plugins": [
-        "edit-link",
-        "anchors-wrapper"
-    ],
-    "pluginsConfig": {
-      "edit-link": {
-        "base": "https://github.com/SpoonX/aurelia-orm-docs/edit/master/"
-      }
-    }
+    
 }
