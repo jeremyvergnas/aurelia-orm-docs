@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Quick start](asa/sas/chapter1md.md)
+* [Quick start](asa/sas/quick-start.md)
 * [Terminology](terminology.md)
 * Entities
 * Repositories
