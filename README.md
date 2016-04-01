@@ -1,3 +1,18 @@
-# My Awesome Book
+# Aurelia-orm
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Working with endpoints and client-side entities is unavoidable when doing API driven development. You end up writing a small wrapper for your XHRs / websocket events and putting your request methods in one place.
+Another option is just using Breeze, which is large, complex and not meant for most applications. Even though your endpoints are important, you still end up neglecting them.
+
+Enter aurelia-orm. This module provides you with some useful and cool features, such as:
+
+* Entity definitions
+* Repositories
+* Associations
+* Validation
+* Type casting
+* Self-populating select element
+* More..
+
+This makes it easier to focus on your application and organize your code.
+
+There's enough to read, so enjoy! Also, feel free to edit these pages if you happen to find a mistake or wish to add something.
