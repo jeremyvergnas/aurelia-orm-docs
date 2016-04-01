@@ -1,7 +1,8 @@
 {
     "plugins": [
         "anchors",
-        "editlink"
+        "editlink",
+        "disqus"
     ],
     "pluginsConfig": {}
 }
