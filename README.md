@@ -15,4 +15,9 @@ Enter aurelia-orm. This module provides you with some useful and cool features, 
 
 This makes it easier to focus on your application and organize your code.
 
+
+
+`jspm i aurelia-orm`
+
+## Enjoy
 There's enough to read, so enjoy! Also, feel free to edit these pages if you happen to find a mistake or wish to add something.
