@@ -1,5 +1,4 @@
-Docs for the {`Entity`} class
-=======
+# Docs for the {`Entity`} class
 
 This class can optionally be used with validation. 
 The following is a full example, with validation included.
