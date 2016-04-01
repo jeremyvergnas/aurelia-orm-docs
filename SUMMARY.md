@@ -6,7 +6,7 @@
 * [Terminology](terminology.md)
 * [Entities](entities.md)
 * [Repositories](repositories.md)
-* Entity manager
+* [Entity manager](entity_manager.md)
 * [Decorators](decorators.md)
 * [Components](components.md)
 
