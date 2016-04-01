@@ -6,4 +6,5 @@
 * [Components](components.md)
 * Entities
 * Repositories
+* Entity manager
 
