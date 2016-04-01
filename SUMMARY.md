@@ -8,4 +8,5 @@
 * Entity manager
 * [Decorators](decorators.md)
 * [Components](components.md)
+* Installing
 
