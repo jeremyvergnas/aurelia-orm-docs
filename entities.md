@@ -63,4 +63,4 @@ class Product extends Entity {
 }
 ```
 
-Further information on the decorators used may be found in the [decorators chapter](decorators.html).
+Further information on the decorators being used are in the [decorators chapter](decorators.html).
