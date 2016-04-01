@@ -7,4 +7,5 @@
 * Entities
 * Repositories
 * Entity manager
+* Terminology
 
