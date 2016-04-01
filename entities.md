@@ -32,7 +32,20 @@ Then the Repository responsible for your resource will populate using your new e
 
 Here's how:
 
+```js
+import {EntityManager} from 'aurelia-orm';
+import {inject} from 'aurelia-dependency-injection';
+import {Product} from './entity/product';
 
+@inject(EntityManager)
+class SomeClass {
+  constructor(entityManager) {
+    entityManager.registerEntity(Product);
+  }
+}
+```
+
+There's an easier way to do this, as described in the Configuring section in chapter Installing.
 
 ## Going deep
 
