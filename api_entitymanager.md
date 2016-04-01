@@ -1,4 +1,4 @@
-# Docs for the {`EntityManager`}
+# EntityManager class
 
 The `EntityManager` allows you to manage `Repositories` and `Entities`.
 
