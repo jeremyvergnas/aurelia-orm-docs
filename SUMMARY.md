@@ -3,9 +3,9 @@
 * [Introduction](README.md)
 * [Quick start](chapter1.md)
 * [Decorators](decorators.md)
-* [Components](components.md)
 * Terminology
 * Entities
 * Repositories
+* [Components](components.md)
 * Entity manager
 
