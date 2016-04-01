@@ -9,4 +9,5 @@
 * [Entity manager](entity_manager.md)
 * [Decorators](decorators.md)
 * [Components](components.md)
+* Api: Entity
 
