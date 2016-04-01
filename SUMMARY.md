@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* Installing
+* [Installing](installing.md)
 * [Quick start](quick-start.md)
 * [Terminology](terminology.md)
 * Entities
