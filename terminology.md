@@ -42,4 +42,4 @@ Some entities have a relationship with each other. For instance, entity `User` h
 
 > Manages Repository and Entity instances for resources.
 
-The entity manager is where you get the repository for a resource, and register new repositories.
+Each resource has an entity, and a repository. They are all registered with the entity manager.
