@@ -4,7 +4,7 @@
 * [Quick start](quick-start.md)
 * [Installing](installing.md)
 * [Terminology](terminology.md)
-* Entities
+* [Entities](entities.md)
 * Repositories
 * Entity manager
 * [Decorators](decorators.md)
