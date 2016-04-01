@@ -1,7 +1,8 @@
 {
     "plugins": [
         "disqus",
-        "edit-link"
+        "edit-link",
+        "anchors-wrapper"
     ],
     "pluginsConfig": {}
 }
